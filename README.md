@@ -56,3 +56,19 @@ After converting images to arrays, which are our input matrix for training model
 <img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/data_look_up.jpg?raw=true">
 
 ---
+
+## Data Augmentation: Initialization and Hyperparameters
+
+There are various hyperparameters in data augmentation to work around with for improving model generalizing ability and some of the hyperparameters are commented in the image below i.e. they are not suitable for model training for our case study as for example introducing a shearing range as hyperparamter may confuse the model with a fractured class and bones beyond repair class as the later class is also based on the degree of fracture condition in bone and hence it would cause model to train on ambigious images. Hence the commented hyperparameters are preferred not to be used for our particular use case.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/data_augmentation.jpg?raw=true">
+
+---
+
+## Model metrics Initialization and Hyperparameters
+
+The model was initially started training on 2 classes i.e. healthy and fractured class as the data was explicitly not available online for training. Later after using Bing API to gather image data for 3rd class i.e. bones beyond repair, the problem statement was translated to three classes image classification with minor changes in the code  
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_parameters.jpg?raw=true">
+
+---
