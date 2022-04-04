@@ -72,3 +72,35 @@ The model was initially started training on 2 classes i.e. healthy and fractured
 <img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_parameters.jpg?raw=true">
 
 ---
+
+## Model Building Workflow
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_building_workflow.jpg?raw=true">
+
+---
+
+## Model Version 1
+
+Model Version 1 is the priliminary model built using 2 classes i.e. healthy and fractured bones at start for which we had dataset initially. The custom model stats are shown in the image.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v1.jpg?raw=true">
+
+---
+
+## Model Version 2
+
+Model Version 2 is built with a better custom model architecture than model version 1. This model base architecture focusses on capturing large features in the beginning using larger filter/kernel sizes and then learning on finer and complex features on subsequent layers by reducing the filter size and increasing the number of filters unlike model version 1 where there was a constant feature learning from subsequent layers.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v2.jpg?raw=true">
+
+---
+
+## Model Version 2 and its variations
+
+Model Version 2 is selected as base for further experimentation and the modifications applied for different experiments are such as changing recommended optmizers for this use case for comparing accuracies, reducing the number of neurons in subsequent dense layers for finding accuracies at cheaper networks and comparing base model having 3 channels (RGB) with base model having single channel (greyscale) as this is a case of x-ray images.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v2_variations.jpg?raw=true">
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v2_variations_2.jpg?raw=true">
+
+---
