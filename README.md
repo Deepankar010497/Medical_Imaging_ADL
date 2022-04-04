@@ -44,3 +44,15 @@ After converting images to arrays, which are our input matrix for training model
 <img width="600" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/image_arrays.jpg?raw=true">
 
 ---
+
+## Workflow
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/workflow.jpg?raw=true">
+
+---
+
+## Data Look-up
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/data_look_up.jpg?raw=true">
+
+---
