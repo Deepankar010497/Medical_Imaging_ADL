@@ -150,3 +150,32 @@ The transfer learning model version 2 is built using pre-trained model Xception 
 Some other pre trained models have been tried upon and are not continued for further experiments based on the facts that they don't show promising results with the applied methods for use case. Future scope can include finding better methods to work around with these models for further comparision.
 
 <img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/other_t_l_models.jpg?raw=true">
+
+---
+
+## Model Demo Deployment
+
+Transfer Learning model Inception V3 has been used as a use case for our problem statement for the sake of model deployment. As a part of standard practice, model deployment has been carried out using Azure Web App services using Azure pipelines for continous integration and creating docker images from github repository using azure container registry. Also the demo model deployment is carried out on Streamlit cloud services hosted from my Medical_Imaging_Deployment repository.
+
+The link of the streamlit web app for the bone classifier model is given provided. 
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_deployment.jpg?raw=true">
+
+Streamlit Web app link - [boneclassifier.com](https://share.streamlit.io/deepankar010497/medical_imaging_deployment/main/app.py)
+
+---
+
+## Model Details
+
+Information and details about all the models are included in the notebooks in the github repository and can be refered as needed.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_details.jpg?raw=true">
+
+---
+
+## Application and Future Work
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/application_future_work.jpg?raw=true">
+
+
+Thank you for your patience and hope you enjoyed reading my content!
