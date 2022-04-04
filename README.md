@@ -104,3 +104,49 @@ Model Version 2 is selected as base for further experimentation and the modifica
 <img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v2_variations_2.jpg?raw=true">
 
 ---
+
+## Model Version 3
+
+Model Version 3 is built with all three classes of the problem statement i.e. healthy, fractured and bones beyond repair class.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/model_v3.jpg?raw=true">
+
+---
+
+## Transfer Learning Model Version 1
+
+With the help of custom models, the models could predict between the three classes with fair enough accuracies but for achieving highly accurate models there is a need for involving complex convolutional blocks and in mutiple layers. Creating such architecture and training them can be difficult if there are computational constraints, which is why transfer learning can be a great aid here where we can leverage these pre trained models for our own use case. Transfer Learning Model Version 1 is built using pre-trained model Inception v3 and the stats are shown in the image.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/transfer_learning_model_v1.jpg?raw=true">
+
+---
+
+## Transfer Learning Model Version 1 - Modification 1
+
+The transfer learning model version 1 can become overconfident sometimes during prediction because of creating tight boundaries for classification during model training and hence to avoid this we can use regularizers to prevent model overfitting. This model is a variation of base model with addition of l2 regularization on each layers of the imported pre trained model.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/transfer_learning_model_v1_1.jpg?raw=true">
+
+---
+
+## Transfer Learning Model Version 1 - Modification 2
+
+The transfer learning model version 1 Modification 1 happens to still show overfitting and hence to create some more non linearity and reduce down the number of features before making a decision on probablities for classifying bone classes, we add one dense layers followed by batch normalization and the results shows a reduction in overfitting nature of the model and knowledge from this experimentation can be further utilizated for generating higher accurate models.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/transfer_learning_model_v1_2.jpg?raw=true">
+
+---
+
+## Transfer Learning Model Version 2
+
+The transfer learning model version 2 is built using pre-trained model Xception and results show a opportunity for further scope of impovements for highly accurate model with very less overfitting.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/transfer_learning_model_v2.jpg?raw=true">
+
+---
+
+## Other Transfer Learning Models
+
+Some other pre trained models have been tried upon and are not continued for further experiments based on the facts that they don't show promising results with the applied methods for use case. Future scope can include finding better methods to work around with these models for further comparision.
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/other_t_l_models.jpg?raw=true">
