@@ -145,6 +145,16 @@ The transfer learning model version 2 is built using pre-trained model Xception 
 
 ---
 
+## Transfer Learning Model Version 2 - Modification 1
+
+The transfer learning model version 2 shows some overfitting and hence to create some more non linearity and reduce down the number of features before making a decision on probablities for classifying bone classes, we add one dense layers followed by batch normalization and the results shows a reduction in overfitting nature of the model and also an comparable increase in model accuracy and knowledge from this experimentation can be further utilizated for generating higher accurate models.
+
+From all the models trained so far, this model shows the most favorable outcome. 
+
+<img width="700" align='center' src="https://github.com/Deepankar010497/Medical_Imaging_ADL/blob/main/Images/transfer_learning_model_v2_1.jpg?raw=true">
+
+---
+
 ## Other Transfer Learning Models
 
 Some other pre trained models have been tried upon and are not continued for further experiments based on the facts that they don't show promising results with the applied methods for use case. Future scope can include finding better methods to work around with these models for further comparision.
